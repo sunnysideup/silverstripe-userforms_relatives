@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="EditableOffSpringField" namespace="" name="EditableOffSpringField" abstract="false" final="false" start="8" end="55">
+  <file path="/var/www/_modules/userforms_relatives/trunk/docs/en/phpdox/../../../code/forms" file="EditableOffSpringField.php" realpath="/var/www/_modules/userforms_relatives/trunk/code/forms/EditableOffSpringField.php" size="1292" time="2015-03-14T10:23:18+13:00" unixtime="1426281798" sha1="8db7dfe040e23365ee83c02e065321647a71143e" relative="code/forms/EditableOffSpringField.php"/>
+  <docblock>
+    <description/>
+    <package value="userforms"/>
+    <subpackage value="relatives"/>
+  </docblock>
+  <extends full="EditableFormField" namespace="" name="EditableFormField"/>
+  <member name="singular_name" type="string" default="'Offspring field'" visibility="public" line="10"/>
+  <member name="plural_name" type="string" default="'Offspring fields'" visibility="public" line="12"/>
+  <method name="getFieldConfiguration" start="14" end="17" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="getFormField" start="19" end="21" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="getValidation" start="31" end="34" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Return the validation information related to this field. This is interrupted as a JSON object for validate plugin and used in the PHP."/>
+      <see value="http://docs.jquery.com/Plugins/Validation/Methods"/>
+      <return type="object">
+        <type full="Array" namespace="" name="Array"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="getValueFromData" start="41" end="49" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Return the Value of this Field"/>
+      <return type="object">
+        <type full="String" namespace="" name="String"/>
+      </return>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="Icon" start="51" end="53" abstract="false" final="false" static="false" visibility="public"/>
+</class>

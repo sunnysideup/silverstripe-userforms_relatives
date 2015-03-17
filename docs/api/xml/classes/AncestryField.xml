@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="AncestryField" namespace="" name="AncestryField" abstract="false" final="false" start="7" end="120">
+  <file path="/var/www/_modules/userforms_relatives/trunk/docs/en/phpdox/../../../code/forms" file="AncestryField.php" realpath="/var/www/_modules/userforms_relatives/trunk/code/forms/AncestryField.php" size="3850" time="2015-03-14T10:23:18+13:00" unixtime="1426281798" sha1="2078f35cbf8b5fd548a9f1ed6b133313b3b9f499" relative="code/forms/AncestryField.php"/>
+  <docblock>
+    <description/>
+    <package value="userforms"/>
+    <subpackage value="relatives"/>
+  </docblock>
+  <extends full="FormField" namespace="" name="FormField"/>
+  <member name="array_of_ancestors" type="array" visibility="protected" line="13"/>
+  <method name="get_array_of_ancestors" start="48" end="48" abstract="false" final="false" static="true" visibility="public"/>
+  <method name="set_array_of_ancestors" start="49" end="49" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="a" byreference="false" type="{unknown}"/>
+  </method>
+  <member name="fieldHolder" type="array" visibility="protected" line="51"/>
+  <constructor name="__construct" start="53" end="58" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="name" byreference="false" type="{unknown}"/>
+    <parameter name="title" byreference="false" type="{unknown}" default="null"/>
+    <parameter name="value" byreference="false" type="string" default="&quot;&quot;"/>
+  </constructor>
+  <method name="setForm" start="60" end="65" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="form" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="Field" start="67" end="78" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="setValue" start="82" end="106" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+    </docblock>
+    <parameter name="val" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="dataValue" start="108" end="114" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="Icon" start="116" end="118" abstract="false" final="false" static="false" visibility="public"/>
+</class>

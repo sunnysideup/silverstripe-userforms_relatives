@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/userforms_relatives/trunk">
+  <namespace name="">
+    <class name="OffSpringField" src="code/forms/OffSpringField.php" xml="classes/OffSpringField.xml"/>
+    <class name="OffSpringField_Readonly" src="code/forms/OffSpringField.php" xml="classes/OffSpringField_Readonly.xml"/>
+    <class name="EditableOffSpringField" src="code/forms/EditableOffSpringField.php" xml="classes/EditableOffSpringField.xml"/>
+    <class name="EditableAncestryField" src="code/forms/EditableAncestryField.php" xml="classes/EditableAncestryField.xml"/>
+    <class name="AncestryField" src="code/forms/AncestryField.php" xml="classes/AncestryField.xml"/>
+  </namespace>
+</index>

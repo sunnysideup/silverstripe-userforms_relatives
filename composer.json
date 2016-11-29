@@ -3,8 +3,10 @@
     "type": "silverstripe-module",
     "description": "Add family (relatives) related fields to your editable userform: my children and my ancestors.",
     "keywords": [
-        "userforms_relatives",
-        "silverstripe"
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "userforms_relatives"
     ],
     "license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
     "authors": [
@@ -15,7 +17,8 @@
         }
     ],
     "require": {
-        "silverstripe/framework": "~2.4"
+        "silverstripe/framework": "~2.4",
+        "silverstripe/cms": "~2.4"
     },
     "extra": {
         "installer-name": "userforms_relatives"
